@@ -1,0 +1,201 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+}
+.heading{
+    text-align: center;
+   
+    color:whitesmoke;
+    font-size: 30px;
+    background-attachment: scroll;
+    cursor: pointer;
+}
+body{
+
+
+    background-image: url(" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0BI_XN0lw_6ZomI4DNQ8L_cD8AgpRT-QuGeduhliRew&s ");
+   background-attachment:local;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.navbar{
+    display:flex;
+    align-items:right;
+    justify-content: left;
+    position: relative;
+    left:2vh;
+    top:1vh;
+    cursor: pointer;
+  
+   
+}
+.navlist{
+width:40%;
+display: flex;
+align-items:left;
+
+
+}
+.navlist li{
+list-style: none;
+padding:4vh;
+margin-left: 7%;
+
+
+
+}
+.navlist li a{
+text-decoration: none;
+color:aqua;
+font-size: 3vh;
+text-align: left;
+background-attachment: fixed;
+font-weight: bolder;
+
+
+}
+.navlist li a:hover{
+  border-color: aqua;
+  border-radius: 70px;
+  background-color:papayawhip;
+   color: crimson;
+   font-size: 28px;
+   font-family:verdana;
+    }
+    
+   
+
+   
+    .letters img{
+        width:500px;
+        height:600px;
+        justify-content: center;
+        align-items: right;
+      margin-top: 4%;
+      border: 10px solid rgba(20, 30, 70, 3.137);
+    
+      cursor:not-allowed;
+      
+    }
+    .letter hr{
+        width:100%;
+        height:2px;
+       background-color:red; 
+    }
+    .letter{
+        text-align:center;
+font-size: 40px;
+font-family: 'Dancing Script'cursive;
+
+      margin:150px auto;
+      width:90%;
+      padding:7vh;
+color:darkkhaki;
+cursor: pointer;
+
+    }
+    .letters img{
+        float:left;
+        width:500px;
+        height:500px;
+        padding:20 10px 30px 0 ;
+    }
+
+    .information2 hr{
+     
+     border-color:skyblue; 
+     transition: 0.04s;
+   
+    height: auto;
+        
+
+    }
+
+    .second_heading{
+        font-size: 40px;
+        margin-top: 0%;
+        color:khaki;
+    }
+
+
+
+
+    .information2{
+
+        margin: 5%;
+         width:100%;
+         height:500px;
+
+         display: flex;
+         float:left;
+        background-attachment: local;
+         
+ 
+     }
+     .information2 img{
+ width: 900px;
+ height:500px;
+ cursor:not-allowed;
+ float:right;
+ border: 10px solid wheat;
+ 
+ 
+     }
+    
+
+    
+    .l4{
+        text-align:left;
+      padding: 2px;
+font-size: 24px;
+font-family:cursive;
+      margin:9px auto;
+      overflow-y: scroll;
+      width:190%;
+     margin-top: 6%;
+color:springgreen;
+cursor: pointer;
+
+    }
+    .l5{
+        text-align:left;
+      padding: 5px;
+font-size: 24px;
+overflow-y: scroll;
+font-family:cursive;
+      margin-left:3px ;
+      
+      width:100%;
+     margin-top: 9%;
+color:palegoldenrod;
+cursor: pointer;
+
+    }
+     .elephant h2{
+        margin-top: 2%;
+       font-size: 7vh;
+       font-family: verda;
+        text-align: left;
+        justify-content: left;
+        align-items: left;
+        margin-left: 10%;
+        color:red;
+       
+     }
+     .btn{
+        font-size: 20px;
+        border-radius: 50px;
+        width:150px;
+        border:5px solid red;
+        background-color:darkkhaki;
+        cursor: pointer;padding: 10px;
+        margin: 5px;
+      
+    }
+    .next{
+    margin-top: 4%;
+    text-align: right;
+  
+    }

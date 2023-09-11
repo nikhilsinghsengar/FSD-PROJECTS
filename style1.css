@@ -1,0 +1,131 @@
+
+*{
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    padding: 0%;
+}
+body{
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   
+    background-image: url(" https://images.unsplash.com/photo-1573339607881-208e75e4b267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFyayUyMGZvcmVzdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+.write{
+    color:aqua;
+    font-size: 70px ;
+    font-family:sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.information2 img:hover{
+    float: right;
+    transition: 3s;
+    transform:skewY(-180deg);
+    transform:skewX(-180deg);
+   border-radius: 50%;
+    
+
+}
+
+/* this for right SIDE PROPERTIES*/
+.section{
+    display:flex;
+   
+    justify-content: space-between;
+    padding:15vh;
+    width:100%;
+    
+}
+
+.section img{
+height:600px;
+width:900px;
+cursor:not-allowed;
+
+
+}
+.section img:hover{
+  
+    transition: 2s;
+    transform:skewY(360deg);
+    height:900px;
+    width:1500px;
+    transform:rotate(-360deg);
+    border-radius: 50%;
+    image-rendering: pixelated;
+    image-resolution:2080px;
+    
+    
+}
+
+.section h1{
+    color:red;
+margin: 0;
+cursor: pointer;
+}
+.section p{
+    color:palegreen;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* THIS FOR LEFT SIDE PROPERTIES*/
+.information2{
+    margin-top: 8%;
+    
+     width:100%;
+     height:500px;
+
+     display: flex;
+     float:left;
+  
+     
+
+ }
+ .information2 img{
+width: 900px;
+height:500px;
+
+float:right;
+cursor:not-allowed;
+ }
+ .l5{
+    text-align:center;
+  padding: 3px;
+font-size: 25px;
+font-family:cursive;
+  margin:1px auto;
+  
+  width:900px;
+ 
+color:palegoldenrod;
+cursor: pointer;
+
+}
+.btn{
+    font-size: 20px;
+    border-radius: 20px;
+    width:90px;
+    cursor: pointer;padding: 0px;
+    margin: 5px;
+}
+.next{
+margin-top: 4%;
+text-align: right;
+}
+.elephant{
+    cursor: pointer;
+    color:darkorange;
+    font-size: 17px;
+    font-weight: bolder;
+    
+}
